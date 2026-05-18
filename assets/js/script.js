@@ -35,14 +35,18 @@ function mostrar(e) {
     }
 }
 
-function togglePreguntas(event) {
-    event.preventDefault();
+document.addEventListener("DOMContentLoaded", function() {
+    var botonPreguntas = document.getElementById("btn-preguntas");
+    var submenuPreguntas = document.getElementById("submenu-preguntas");
 
-    var submenu = document.getElementById("submenu-preguntas");
+    if (botonPreguntas && submenuPreguntas) {
+        botonPreguntas.addEventListener("click", function(event) {
+            event.preventDefault();
 
-    if (submenu.style.display === "none" || submenu.style.display === "") {
-        submenu.style.display = "block";
-    } else {
-        submenu.style.display = "none";
+            if (submenuPreguntas.style.display === "none" || submenuPreguntas.style.display === "") {
+                submenuPreguntas.style.display = "block";
+            } else {
+                submenuPreguntas.style.display = "none";
+            }
+        });
     }
-}
