@@ -90,15 +90,15 @@ body {
 }
 
 .servicio:hover {
-    background-color: #fff;
-    color: rgb(66, 110, 255);
-    border: solid #003263;
+    background-color: #fff !important;
+    color: #F68614 !important;
+    border: 2px solid #F68614 !important;
 }
 
 .pregunta:hover {
-    background-color: #fff;
-    color: rgb(66, 110, 255);
-    border: solid #003263;
+    background-color: #fff !important;
+    color: #A516F6 !important;
+    border: 2px solid #A516F6 !important;
 }
 
 .footer {
