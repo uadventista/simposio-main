@@ -68,7 +68,7 @@ body {
 
 .pregunta {
     display: block;
-    background-color: #A516F6;
+    background-color: #031c2d;
     color: #fff;
     font-family: var(--font);
     text-align: center;
@@ -81,7 +81,20 @@ body {
     border: solid var(--accentColor) 2px;
 }
 
-
+.pregunta2 {
+    display: block;
+    background-color: #035499;
+    color: #fff;
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
+}
 
 .link:hover {
     background-color: #fff;
@@ -98,7 +111,13 @@ body {
 .pregunta:hover {
     background-color: #fff !important;
     color: #A516F6 !important;
-    border: 2px solid #A516F6 !important;
+    border: 2px solid #031c2d !important;
+}
+
+.pregunta2:hover {
+    background-color: #fff !important;
+    color: #A516F6 !important;
+    border: 2px solid #035499 !important;
 }
 
 .footer {
