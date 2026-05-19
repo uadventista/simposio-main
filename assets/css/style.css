@@ -89,6 +89,18 @@ body {
     border: solid #003263;
 }
 
+.servicio:hover {
+    background-color: #fff;
+    color: rgb(66, 110, 255);
+    border: solid #003263;
+}
+
+.pregunta:hover {
+    background-color: #fff;
+    color: rgb(66, 110, 255);
+    border: solid #003263;
+}
+
 .footer {
     text-align: center;
     font-size: 1.3rem;
