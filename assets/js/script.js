@@ -46,3 +46,15 @@ function abrirPreguntasPonentes(event) {
         submenu.style.display = "none";
     }
 }
+
+function abrirboletin(event) {
+    event.preventDefault();
+
+    var submenu = document.getElementById("submenu-preguntas");
+
+    if (submenu.style.display === "none" || submenu.style.display === "") {
+        submenu.style.display = "block";
+    } else {
+        submenu.style.display = "none";
+    }
+}
