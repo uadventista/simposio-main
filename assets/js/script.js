@@ -50,7 +50,7 @@ function abrirPreguntasPonentes(event) {
 function abrirboletin(event) {
     event.preventDefault();
 
-    var submenu = document.getElementById("submenu-preguntas");
+    var submenu = document.getElementById("submenu-boletin");
 
     if (submenu.style.display === "none" || submenu.style.display === "") {
         submenu.style.display = "block";
